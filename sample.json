@@ -1,0 +1,250 @@
+[
+  {
+    "sections": {
+      "Real Property": [
+        {
+          "description": "4526 Treasure Trail, Sugar Land, Texas, 77479",
+          "market_value": 350000,
+          "debt_balance": -120000,
+          "notes": "County: Fort Bend | Improvements: Garage | Mortgage Holder: Wells Fargo Mortgage | Mortgage Acct (redacted): 112546589 | Lien/Mortgage Balance: 120000"
+        }
+      ],
+      "Bank Accounts": [
+        {
+          "description": "Chase Bank (Checking Account)",
+          "market_value": 5324,
+          "debt_balance": 0,
+          "notes": "Acct (redacted): 012456869 | Balance: 5324"
+        },
+        {
+          "description": "Bank Account (Savings Account)",
+          "market_value": 54230,
+          "debt_balance": 0,
+          "notes": "Acct (redacted): 145789546 | Balance: 54230"
+        }
+      ],
+      "Retirement Benefits": [
+        {
+          "description": "ABC Plan (401k Plan)",
+          "market_value": 250369,
+          "debt_balance": 0,
+          "notes": "Acct (redacted): 01245686 | Administrator: ABC Company, 5806 Mesa Drive, #360, Austin, Texas, 78731 | Service Start: December 11, 2018 | Balance @ Marriage: 50000"
+        },
+        {
+          "description": "PAC Co (PAC 401k)",
+          "market_value": 278901,
+          "debt_balance": 0,
+          "notes": "Acct (redacted): 01145623647 | Administrator: PAC, 1324 Sugar Drive, Austin, Texas, 78731 | Service Start: November 02, 2015 | Balance @ Marriage: 30000"
+        }
+      ],
+      "Personal Property": [
+        {
+          "description": "Maine Coon Cat",
+          "market_value": 2500,
+          "debt_balance": 0,
+          "notes": "Category: Pet"
+        },
+        {
+          "description": "Shih Tzu",
+          "market_value": 1200,
+          "debt_balance": 0,
+          "notes": "Category: Pet"
+        },
+        {
+          "description": "Fishing Rod",
+          "market_value": 1500,
+          "debt_balance": 0,
+          "notes": "Category: Sporting Goods / Firearms"
+        },
+        {
+          "description": "Fishing Rod",
+          "market_value": 1700,
+          "debt_balance": 0,
+          "notes": "Category: Sporting Goods / Firearms"
+        },
+        {
+          "description": "Football Signed by CJ Stroud",
+          "market_value": 1200,
+          "debt_balance": 0,
+          "notes": "Category: Sporting Goods / Firearms"
+        },
+        {
+          "description": "Hunting Rifle",
+          "market_value": 2500,
+          "debt_balance": 0,
+          "notes": "Category: Sporting Goods / Firearms"
+        },
+        {
+          "description": "Baseball Bat",
+          "market_value": 200,
+          "debt_balance": 0,
+          "notes": "Category: Sporting Goods / Firearms"
+        },
+        {
+          "description": "Golf Clubs",
+          "market_value": 6075,
+          "debt_balance": 0,
+          "notes": "Category: Sporting Goods / Firearms"
+        },
+        {
+          "description": "Family Jewelery",
+          "market_value": 15012,
+          "debt_balance": 0,
+          "notes": "Fiduciary: MS Test | Held By: MS Test"
+        },
+        {
+          "description": "Receivable - Nelson Smith",
+          "market_value": 2500,
+          "debt_balance": 0,
+          "notes": "Relationship: Cousin | Terms: Debt is Evidenced in Writing"
+        },
+        {
+          "description": "Receivable - Rachel McAdams",
+          "market_value": 5000,
+          "debt_balance": 0,
+          "notes": "Relationship: Friend | Terms: Debt is Secured"
+        },
+        {
+          "description": "Receivable - Jerry Pena",
+          "market_value": 800,
+          "debt_balance": 0,
+          "notes": "Relationship: CoWorker | Terms: Debt is Secured"
+        }
+      ],
+      "Life Insurance / Annuities": [
+        {
+          "description": "ABC Insurance (Term Life Insurance) Policy #01574264",
+          "market_value": 40000,
+          "debt_balance": 0,
+          "notes": "Face Amount: 200000 | Issued: January 31, 2010 | Premium: 2000 (Quarterly)"
+        }
+      ],
+      "Vehicles": [
+        {
+          "description": "2020 Toyota RAV4",
+          "market_value": 20000,
+          "debt_balance": 0,
+          "notes": "VIN: TH045D148RF574D"
+        },
+        {
+          "description": "2023 Toyota Carolla",
+          "market_value": 10000,
+          "debt_balance": -6000,
+          "notes": "VIN: TE014526EF4457D78 | Lender: ABC Bank | Loan Balance: 6000"
+        }
+      ],
+      "Credit Cards": [
+        {
+          "description": "Chase Credit Card (Acct 01223462041856)",
+          "market_value": 0,
+          "debt_balance": -2561,
+          "notes": "Balance @ Marriage: 5671 | Balance @ Separation: 3985"
+        },
+        {
+          "description": "Wells Fargo Credit Card (Acct 510475145214563)",
+          "market_value": 0,
+          "debt_balance": -6984,
+          "notes": "Balance @ Marriage: 2052 | Balance @ Separation: 5647"
+        },
+        {
+          "description": "Capital One (Acct 24457561456214556)",
+          "market_value": 0,
+          "debt_balance": -14510,
+          "notes": "Balance @ Marriage: 24441 | Balance @ Separation: 5567"
+        }
+      ],
+      "Other Debts & Liabilities": [
+        {
+          "description": "Attorney Fee: Fees incurred by the Petitioner in this case, payable to John Doe, Attorney at Law.",
+          "market_value": 0,
+          "debt_balance": 0,
+          "notes": "Category: Attorney Fee"
+        },
+        {
+          "description": "Attorney Fee: Fees incurred by the Petitioner in this case, payable to Sarah Doe, Attorney at Law.",
+          "market_value": 0,
+          "debt_balance": 0,
+          "notes": "Category: Attorney Fee"
+        },
+        {
+          "description": "Professional Fee: Fees incurred by the Petitioner for psychiatric treatment, payable to John Doe, M.D",
+          "market_value": 0,
+          "debt_balance": 0,
+          "notes": "Category: Professional Fee"
+        },
+        {
+          "description": "Professional Fee: Fees incurred by the Petitioner for psychiatric treatment, payable to John Doe, M.D.",
+          "market_value": 0,
+          "debt_balance": 0,
+          "notes": "Category: Professional Fee"
+        },
+        {
+          "description": "Professional Fee: Fees incurred by the Petitioner for psychiatric treatment, payable to John Doe, M.D",
+          "market_value": 0,
+          "debt_balance": 0,
+          "notes": "Category: Professional Fee"
+        },
+        {
+          "description": "Professional Fee: Fees incurred by the Respondent for medical treatment, payable to Sarah Doe, M.D",
+          "market_value": 0,
+          "debt_balance": -145,
+          "notes": "Category: Professional Fee"
+        },
+        {
+          "description": "Reimbursement Claim: attorneys fees",
+          "market_value": 0,
+          "debt_balance": -6500,
+          "notes": "Basis: payment of loan on home owned by community with inheritance money | Claim Between: MS Test vs TS Test"
+        }
+      ],
+      "Spouse 1’s Separate Property": [
+        {
+          "description": "Rolex Watch",
+          "market_value": 25000,
+          "debt_balance": 0,
+          "notes": "Owner: Spouse 1 (TS Test) | Acquired: June 01, 2015 | Method: By Gift"
+        },
+        {
+          "description": "Gold Chain Necklace",
+          "market_value": 6500,
+          "debt_balance": 0,
+          "notes": "Owner: Spouse 1 (TS Test) | Acquired: January 22, 2019 | Method: By Gift"
+        }
+      ],
+      "Spouse 2’s Separate Property": [
+        {
+          "description": "Diamond Ring",
+          "market_value": 5000,
+          "debt_balance": 0,
+          "notes": "Owner: Spouse 2 (MS Test) | Acquired: January 23, 2010 | Method: Gift"
+        },
+        {
+          "description": "Diamond Earrings",
+          "market_value": 3000,
+          "debt_balance": 0,
+          "notes": "Owner: Spouse 2 (MS Test) | Acquired: January 23, 2012 | Method: By gift"
+        },
+        {
+          "description": "Rolex Ring",
+          "market_value": 12000,
+          "debt_balance": 0,
+          "notes": "Owner: Spouse 2 (MS Test) | Acquired: January 23, 2022 | Method: By gift"
+        }
+      ],
+      "Children’s Property": [
+        {
+          "description": "529 Plan - Terry Test (College Plan 1)",
+          "market_value": 25000,
+          "debt_balance": 0,
+          "notes": "Acct #: 4586245300 | Custodian: MS Test | Source of Funds: TS Test Salary"
+        },
+        {
+          "description": "529 Plan - Timothy Test (College Plan 2)",
+          "market_value": 20560,
+          "debt_balance": 0,
+          "notes": "Acct #: 2586963255"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "name": "spreadsheet-builder",
+  "version": "1.0.0",
+  "description": "Microservice to generate mediation spreadsheets from JSON data",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "keywords": ["excel", "spreadsheet", "n8n", "exceljs"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "exceljs": "^4.4.0",
+    "express": "^5.2.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
