@@ -6,6 +6,10 @@ A microservice that generates filled Excel spreadsheets from JSON data using a t
 
 - Accepts JSON sections data and fills an Excel template
 - Preserves existing formatting, styles, and formulas
+- Rehydrates row formulas when a section needs more rows than the template originally provided
+- Suppresses heading-like rows that leak through from summary-report documents
+- Deterministically reroutes obvious miscategorized rows such as credit cards, tax liabilities, and business interests
+- Normalizes debt rows into column B as negative values when the payload clearly represents a liability
 - Handles various input formats (array, object, nested)
 - Dynamically inserts rows when needed
 - Returns binary XLSX file
@@ -105,15 +109,39 @@ Format C - Nested json:
 **Available Section Keys:**
 - `Real Property`
 - `Bank Accounts`
+- `Business Interests`
 - `Retirement Benefits`
+- `Stock Options`
 - `Personal Property`
 - `Life Insurance / Annuities`
 - `Vehicles`
 - `Credit Cards`
+- `Bonuses`
 - `Other Debts & Liabilities`
+- `Federal Income Taxes`
+- `Attorney's & Expert Fees`
 - `Spouse 1's Separate Property`
 - `Spouse 2's Separate Property`
 - `Children's Property`
+
+The service also accepts a small set of alias section names from the sample
+summary reports, including `Real Properties`, `Cash and Accounts with
+Financial Institutions`, `Insurance And Annuities`, and `Motor Vehicles,
+Boats, Airplanes, Cycles, etc`.
+
+## Defensive Normalization
+
+Before writing any rows into the template, the service now applies a narrow set
+of deterministic safeguards:
+
+- Drops rows whose descriptions are clearly document headings such as `Real
+  Properties`, `Credit Cards`, `Community Assets`, `Defined Contribution
+  Plans`, and similar non-data labels seen in the sample reports.
+- Reroutes obvious credit-card rows into `Credit Cards`.
+- Reroutes obvious tax rows into `Federal Income Taxes`.
+- Reroutes obvious business-interest rows into `Business Interests`.
+- Moves debt amounts into column B and forces them negative for rows that are
+  clearly liabilities.
 
 **Response:**
 - Success: Binary XLSX file with appropriate headers
@@ -121,6 +149,12 @@ Format C - Nested json:
 - Error 500: Processing errors with details
 
 ## Local Testing
+
+Run the automated workbook regression tests:
+
+```bash
+npm test
+```
 
 ### Create a test payload file
 
